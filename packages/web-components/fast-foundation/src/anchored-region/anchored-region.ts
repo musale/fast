@@ -977,7 +977,7 @@ export class AnchoredRegion extends FoundationElement {
         this.classList.toggle("inset-left", this.horizontalPosition === "insetLeft");
         this.classList.toggle("inset-right", this.horizontalPosition === "insetRight");
 
-        this.classList.toggle("loading", !this.initialLayoutComplete);
+        this.style.pointerEvents = this.initialLayoutComplete ? "${void}" : "none";
 
         this.style.position = this.fixedPlacement ? "fixed" : "absolute";
         this.style.transformOrigin = `${this.yTransformOrigin} ${this.xTransformOrigin}`;
