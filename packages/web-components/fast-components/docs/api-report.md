@@ -24,6 +24,7 @@ import { Dialog } from '@microsoft/fast-foundation';
 import { Direction } from '@microsoft/fast-web-utilities';
 import { Disclosure } from '@microsoft/fast-foundation';
 import { Divider } from '@microsoft/fast-foundation';
+import { FASTElement } from '@microsoft/fast-element';
 import { Flipper } from '@microsoft/fast-foundation';
 import { HorizontalScroll } from '@microsoft/fast-foundation';
 import { IDynamicPerson } from '@microsoft/mgt';
@@ -609,14 +610,6 @@ export class FASTOption extends ListboxOption {
 export class FASTPeoplePicker extends PeoplePicker {
 }
 
-// @public (undocumented)
-export class FASTPeoplePickerList extends PickerList {
-}
-
-// @public (undocumented)
-export class FASTPeoplePickerMenu extends PickerMenu {
-}
-
 // @public
 export class FASTPicker extends Picker {
 }
@@ -1141,12 +1134,6 @@ export enum PaletteType {
 
 // @public
 export const parseColorString: (color: string) => ColorRGBA64;
-
-// @public
-export const PeoplePickerListStyles: import("@microsoft/fast-element").ElementStyles;
-
-// @public
-export const PeoplePickerMenuStyles: import("@microsoft/fast-element").ElementStyles;
 
 // @public
 export const PeoplePickerStyles: import("@microsoft/fast-element").ElementStyles;
