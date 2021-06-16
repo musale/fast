@@ -618,6 +618,18 @@ export class FASTPeoplePickerMenu extends PickerMenu {
 }
 
 // @public
+export class FASTPicker extends Picker {
+}
+
+// @public (undocumented)
+export class FASTPickerList extends PickerList {
+}
+
+// @public (undocumented)
+export class FASTPickerMenu extends PickerMenu {
+}
+
+// @public
 export class FASTProgress extends BaseProgress {
 }
 
@@ -1138,6 +1150,15 @@ export const PeoplePickerMenuStyles: import("@microsoft/fast-element").ElementSt
 
 // @public
 export const PeoplePickerStyles: import("@microsoft/fast-element").ElementStyles;
+
+// @public
+export const PickerListStyles: import("@microsoft/fast-element").ElementStyles;
+
+// @public
+export const PickerMenuStyles: import("@microsoft/fast-element").ElementStyles;
+
+// @public
+export const PickerStyles: import("@microsoft/fast-element").ElementStyles;
 
 // @public
 export const ProgressRingStyles: import("@microsoft/fast-element").ElementStyles;
