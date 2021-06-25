@@ -816,8 +816,6 @@ export class Dialog extends FoundationElement {
     hide(): void;
     modal: boolean;
     show(): void;
-    tabQueueEnd: string | HTMLElement | ((HTMLElement: any) => HTMLElement);
-    tabQueueStart: string | HTMLElement | ((HTMLElement: any) => HTMLElement);
     trapFocus: boolean;
     }
 
